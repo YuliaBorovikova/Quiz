@@ -1,0 +1,121 @@
+
+#btn {
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC069;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.btnOne {
+    width: 230px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC069;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.headOne {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+.headTwo {
+    display: flex;
+    padding: 5px;
+}
+
+.headThree {
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    color: green;
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+label {
+    padding: 5px;
+}
+
+span {
+    color: red;
+    font-weight: bolder;
+}
+
+.text {
+    color: black;
+    font-weight: bolder;
+}
+
+@media all and (max-width:800px) {
+    .head {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    img {
+        width: 300px;
+    }
+} 
+
+@media all and (max-width:500px) {
+    .headThree {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    form {
+        margin-left: 5px;
+    } 
+    .headOne {
+        margin-left: 10px;
+    }
+    h6 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .btnOne {
+        margin-left: 35px;
+    }
+}
+
